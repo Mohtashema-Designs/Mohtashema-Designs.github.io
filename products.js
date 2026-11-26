@@ -23,10 +23,16 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/Df-P0zpALkk_0.jpg"
+   "img/web/Df-P0zpALkk_0.webp"
   ],
   "colorImage": {
-   "Beige": "img/Df-P0zpALkk_0.jpg"
+   "Beige": "img/web/Df-P0zpALkk_0.webp",
+   "Black": "img/recolor/Df-P0zpALkk_black.webp",
+   "Grey": "img/recolor/Df-P0zpALkk_grey.webp",
+   "Burgundy": "img/recolor/Df-P0zpALkk_burgundy.webp",
+   "Caramel": "img/recolor/Df-P0zpALkk_caramel.webp",
+   "Brown": "img/recolor/Df-P0zpALkk_brown.webp",
+   "Navy": "img/recolor/Df-P0zpALkk_navy.webp"
   }
  },
  {
@@ -52,10 +58,16 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/Df5WNOcAG6-_0.jpg"
+   "img/web/Df5WNOcAG6-_0.webp"
   ],
   "colorImage": {
-   "Brown": "img/Df5WNOcAG6-_0.jpg"
+   "Brown": "img/web/Df5WNOcAG6-_0.webp",
+   "Black": "img/recolor/Df5WNOcAG6-_black.webp",
+   "Beige": "img/recolor/Df5WNOcAG6-_beige.webp",
+   "Grey": "img/recolor/Df5WNOcAG6-_grey.webp",
+   "Burgundy": "img/recolor/Df5WNOcAG6-_burgundy.webp",
+   "Caramel": "img/recolor/Df5WNOcAG6-_caramel.webp",
+   "Navy": "img/recolor/Df5WNOcAG6-_navy.webp"
   }
  },
  {
@@ -81,10 +93,16 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/Df5WyEEAJOR_0.jpg"
+   "img/web/Df5WyEEAJOR_0.webp"
   ],
   "colorImage": {
-   "Beige": "img/Df5WyEEAJOR_0.jpg"
+   "Beige": "img/web/Df5WyEEAJOR_0.webp",
+   "Black": "img/recolor/Df5WyEEAJOR_black.webp",
+   "Off-White": "img/recolor/Df5WyEEAJOR_off-white.webp",
+   "Grey": "img/recolor/Df5WyEEAJOR_grey.webp",
+   "Burgundy": "img/recolor/Df5WyEEAJOR_burgundy.webp",
+   "Brown": "img/recolor/Df5WyEEAJOR_brown.webp",
+   "Navy": "img/recolor/Df5WyEEAJOR_navy.webp"
   }
  },
  {
@@ -110,11 +128,17 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DfopYvIgCVC_0.jpg",
-   "img/DfopYvIgCVC_1.jpg"
+   "img/web/DfopYvIgCVC_0.webp",
+   "img/web/DfopYvIgCVC_1.webp"
   ],
   "colorImage": {
-   "Grey": "img/DfopYvIgCVC_0.jpg"
+   "Grey": "img/web/DfopYvIgCVC_0.webp",
+   "Black": "img/recolor/DfopYvIgCVC_black.webp",
+   "Beige": "img/recolor/DfopYvIgCVC_beige.webp",
+   "Burgundy": "img/recolor/DfopYvIgCVC_burgundy.webp",
+   "Caramel": "img/recolor/DfopYvIgCVC_caramel.webp",
+   "Brown": "img/recolor/DfopYvIgCVC_brown.webp",
+   "Navy": "img/recolor/DfopYvIgCVC_navy.webp"
   }
  },
  {
@@ -137,11 +161,14 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DfUsGjAANt-_0.jpg",
-   "img/DfUsGjAANt-_1.jpg"
+   "img/web/DfUsGjAANt-_0.webp",
+   "img/web/DfUsGjAANt-_1.webp"
   ],
   "colorImage": {
-   "Brown": "img/DfUsGjAANt-_0.jpg"
+   "Brown": "img/web/DfUsGjAANt-_0.webp",
+   "Black": "img/recolor/DfUsGjAANt-_black.webp",
+   "Off-White": "img/recolor/DfUsGjAANt-_off-white.webp",
+   "Burgundy": "img/recolor/DfUsGjAANt-_burgundy.webp"
   }
  },
  {
@@ -164,11 +191,14 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DfANOo1ACKp_0.jpg",
-   "img/DfANOo1ACKp_1.jpg"
+   "img/web/DfANOo1ACKp_0.webp",
+   "img/web/DfANOo1ACKp_1.webp"
   ],
   "colorImage": {
-   "Burgundy": "img/DfANOo1ACKp_0.jpg"
+   "Burgundy": "img/web/DfANOo1ACKp_0.webp",
+   "Black": "img/recolor/DfANOo1ACKp_black.webp",
+   "Olive": "img/recolor/DfANOo1ACKp_olive.webp",
+   "Brown": "img/recolor/DfANOo1ACKp_brown.webp"
   }
  },
  {
@@ -186,11 +216,11 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7days",
   "photos": [
-   "img/Der1CIDkZxr_0.jpg",
-   "img/Der1CIDkZxr_1.jpg"
+   "img/web/Der1CIDkZxr_0.webp",
+   "img/web/Der1CIDkZxr_1.webp"
   ],
   "colorImage": {
-   "Black": "img/Der1CIDkZxr_0.jpg"
+   "Black": "img/web/Der1CIDkZxr_0.webp"
   }
  },
  {
@@ -208,8 +238,9 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7days",
   "photos": [
-   "img/Der2wHRR1NI_0.jpg"
-  ]
+   "img/web/Der2wHRR1NI_0.webp"
+  ],
+  "colorImage": {}
  },
  {
   "id": "Der3RdFkZ23",
@@ -226,11 +257,11 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7days",
   "photos": [
-   "img/Der3RdFkZ23_0.jpg",
-   "img/Der3RdFkZ23_1.jpg"
+   "img/web/Der3RdFkZ23_0.webp",
+   "img/web/Der3RdFkZ23_1.webp"
   ],
   "colorImage": {
-   "Olive": "img/Der3RdFkZ23_0.jpg"
+   "Olive": "img/web/Der3RdFkZ23_0.webp"
   }
  },
  {
@@ -253,11 +284,14 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DeYIGk3gizU_0.jpg",
-   "img/DeYIGk3gizU_1.jpg"
+   "img/web/DeYIGk3gizU_0.webp",
+   "img/web/DeYIGk3gizU_1.webp"
   ],
   "colorImage": {
-   "Olive": "img/DeYIGk3gizU_0.jpg"
+   "Olive": "img/web/DeYIGk3gizU_0.webp",
+   "Black": "img/recolor/DeYIGk3gizU_black.webp",
+   "Burgundy": "img/recolor/DeYIGk3gizU_burgundy.webp",
+   "Brown": "img/recolor/DeYIGk3gizU_brown.webp"
   }
  },
  {
@@ -283,11 +317,17 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DeYIwCFgpB9_0.jpg",
-   "img/DeYIwCFgpB9_1.jpg"
+   "img/web/DeYIwCFgpB9_0.webp",
+   "img/web/DeYIwCFgpB9_1.webp"
   ],
   "colorImage": {
-   "Brown": "img/DeYIwCFgpB9_0.jpg"
+   "Brown": "img/web/DeYIwCFgpB9_0.webp",
+   "Black": "img/recolor/DeYIwCFgpB9_black.webp",
+   "Off-White": "img/recolor/DeYIwCFgpB9_off-white.webp",
+   "Beige": "img/recolor/DeYIwCFgpB9_beige.webp",
+   "Grey": "img/recolor/DeYIwCFgpB9_grey.webp",
+   "Burgundy": "img/recolor/DeYIwCFgpB9_burgundy.webp",
+   "Navy": "img/recolor/DeYIwCFgpB9_navy.webp"
   }
  },
  {
@@ -313,11 +353,17 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DeZ-A3tADN__0.jpg",
-   "img/DeZ-A3tADN__1.jpg"
+   "img/web/DeZ-A3tADN__0.webp",
+   "img/web/DeZ-A3tADN__1.webp"
   ],
   "colorImage": {
-   "Grey": "img/DeZ-A3tADN__0.jpg"
+   "Grey": "img/web/DeZ-A3tADN__0.webp",
+   "Black": "img/recolor/DeZ-A3tADN__black.webp",
+   "Off-White": "img/recolor/DeZ-A3tADN__off-white.webp",
+   "Navy": "img/recolor/DeZ-A3tADN__navy.webp",
+   "Burgundy": "img/recolor/DeZ-A3tADN__burgundy.webp",
+   "Beige": "img/recolor/DeZ-A3tADN__beige.webp",
+   "Brown": "img/recolor/DeZ-A3tADN__brown.webp"
   }
  },
  {
@@ -343,11 +389,17 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DeNEHB6AJ71_0.jpg",
-   "img/DeNEHB6AJ71_1.jpg"
+   "img/web/DeNEHB6AJ71_0.webp",
+   "img/web/DeNEHB6AJ71_1.webp"
   ],
   "colorImage": {
-   "Off-White": "img/DeNEHB6AJ71_0.jpg"
+   "Off-White": "img/web/DeNEHB6AJ71_0.webp",
+   "Black": "img/recolor/DeNEHB6AJ71_black.webp",
+   "Beige": "img/recolor/DeNEHB6AJ71_beige.webp",
+   "Grey": "img/recolor/DeNEHB6AJ71_grey.webp",
+   "Burgundy": "img/recolor/DeNEHB6AJ71_burgundy.webp",
+   "Brown": "img/recolor/DeNEHB6AJ71_brown.webp",
+   "Navy": "img/recolor/DeNEHB6AJ71_navy.webp"
   }
  },
  {
@@ -373,11 +425,17 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DeNDOTOgML8_0.jpg",
-   "img/DeNDOTOgML8_1.jpg"
+   "img/web/DeNDOTOgML8_0.webp",
+   "img/web/DeNDOTOgML8_1.webp"
   ],
   "colorImage": {
-   "Black": "img/DeNDOTOgML8_0.jpg"
+   "Black": "img/web/DeNDOTOgML8_0.webp",
+   "Off-White": "img/recolor/DeNDOTOgML8_off-white.webp",
+   "Navy": "img/recolor/DeNDOTOgML8_navy.webp",
+   "Burgundy": "img/recolor/DeNDOTOgML8_burgundy.webp",
+   "Grey": "img/recolor/DeNDOTOgML8_grey.webp",
+   "Beige": "img/recolor/DeNDOTOgML8_beige.webp",
+   "Brown": "img/recolor/DeNDOTOgML8_brown.webp"
   }
  },
  {
@@ -404,11 +462,18 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DeNFMdFAAYH_0.jpg",
-   "img/DeNFMdFAAYH_1.jpg"
+   "img/web/DeNFMdFAAYH_0.webp",
+   "img/web/DeNFMdFAAYH_1.webp"
   ],
   "colorImage": {
-   "Black": "img/DeNFMdFAAYH_0.jpg"
+   "Black": "img/web/DeNFMdFAAYH_0.webp",
+   "Off-White": "img/recolor/DeNFMdFAAYH_off-white.webp",
+   "Beige": "img/recolor/DeNFMdFAAYH_beige.webp",
+   "Grey": "img/recolor/DeNFMdFAAYH_grey.webp",
+   "Burgundy": "img/recolor/DeNFMdFAAYH_burgundy.webp",
+   "Caramel": "img/recolor/DeNFMdFAAYH_caramel.webp",
+   "Brown": "img/recolor/DeNFMdFAAYH_brown.webp",
+   "Navy": "img/recolor/DeNFMdFAAYH_navy.webp"
   }
  },
  {
@@ -434,11 +499,17 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DdzEEgsgEqW_0.jpg",
-   "img/DdzEEgsgEqW_1.jpg"
+   "img/web/DdzEEgsgEqW_0.webp",
+   "img/web/DdzEEgsgEqW_1.webp"
   ],
   "colorImage": {
-   "Off-White": "img/DdzEEgsgEqW_0.jpg"
+   "Off-White": "img/web/DdzEEgsgEqW_0.webp",
+   "Black": "img/recolor/DdzEEgsgEqW_black.webp",
+   "Royal Blue": "img/recolor/DdzEEgsgEqW_royal-blue.webp",
+   "Burgundy": "img/recolor/DdzEEgsgEqW_burgundy.webp",
+   "Navy": "img/recolor/DdzEEgsgEqW_navy.webp",
+   "Beige": "img/recolor/DdzEEgsgEqW_beige.webp",
+   "Grey": "img/recolor/DdzEEgsgEqW_grey.webp"
   }
  },
  {
@@ -464,11 +535,17 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DdzFLHygBah_0.jpg",
-   "img/DdzFLHygBah_1.jpg"
+   "img/web/DdzFLHygBah_0.webp",
+   "img/web/DdzFLHygBah_1.webp"
   ],
   "colorImage": {
-   "Burgundy": "img/DdzFLHygBah_0.jpg"
+   "Burgundy": "img/web/DdzFLHygBah_0.webp",
+   "Black": "img/recolor/DdzFLHygBah_black.webp",
+   "Off-White": "img/recolor/DdzFLHygBah_off-white.webp",
+   "Navy": "img/recolor/DdzFLHygBah_navy.webp",
+   "Grey": "img/recolor/DdzFLHygBah_grey.webp",
+   "Beige": "img/recolor/DdzFLHygBah_beige.webp",
+   "Brown": "img/recolor/DdzFLHygBah_brown.webp"
   }
  },
  {
@@ -489,11 +566,12 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DdzGpi6gL-i_0.jpg",
-   "img/DdzGpi6gL-i_1.jpg"
+   "img/web/DdzGpi6gL-i_0.webp",
+   "img/web/DdzGpi6gL-i_1.webp"
   ],
   "colorImage": {
-   "Brown": "img/DdzGpi6gL-i_0.jpg"
+   "Brown": "img/web/DdzGpi6gL-i_0.webp",
+   "Black": "img/recolor/DdzGpi6gL-i_black.webp"
   }
  },
  {
@@ -519,11 +597,17 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DdwvLHxAOAR_0.jpg",
-   "img/DdwvLHxAOAR_1.jpg"
+   "img/web/DdwvLHxAOAR_0.webp",
+   "img/web/DdwvLHxAOAR_1.webp"
   ],
   "colorImage": {
-   "Burgundy": "img/DdwvLHxAOAR_0.jpg"
+   "Burgundy": "img/web/DdwvLHxAOAR_0.webp",
+   "Black": "img/recolor/DdwvLHxAOAR_black.webp",
+   "Off-White": "img/recolor/DdwvLHxAOAR_off-white.webp",
+   "Caramel": "img/recolor/DdwvLHxAOAR_caramel.webp",
+   "Navy": "img/recolor/DdwvLHxAOAR_navy.webp",
+   "Beige": "img/recolor/DdwvLHxAOAR_beige.webp",
+   "Grey": "img/recolor/DdwvLHxAOAR_grey.webp"
   }
  },
  {
@@ -541,9 +625,10 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DdwvuJ5AAvJ_0.jpg",
-   "img/DdwvuJ5AAvJ_1.jpg"
-  ]
+   "img/web/DdwvuJ5AAvJ_0.webp",
+   "img/web/DdwvuJ5AAvJ_1.webp"
+  ],
+  "colorImage": {}
  },
  {
   "id": "DdwwG4iAAfC",
@@ -568,11 +653,17 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DdwwG4iAAfC_0.jpg",
-   "img/DdwwG4iAAfC_1.jpg"
+   "img/web/DdwwG4iAAfC_0.webp",
+   "img/web/DdwwG4iAAfC_1.webp"
   ],
   "colorImage": {
-   "Grey": "img/DdwwG4iAAfC_0.jpg"
+   "Grey": "img/web/DdwwG4iAAfC_0.webp",
+   "Black": "img/recolor/DdwwG4iAAfC_black.webp",
+   "Off-White": "img/recolor/DdwwG4iAAfC_off-white.webp",
+   "Caramel": "img/recolor/DdwwG4iAAfC_caramel.webp",
+   "Burgundy": "img/recolor/DdwwG4iAAfC_burgundy.webp",
+   "Navy": "img/recolor/DdwwG4iAAfC_navy.webp",
+   "Beige": "img/recolor/DdwwG4iAAfC_beige.webp"
   }
  },
  {
@@ -595,11 +686,14 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/Dbwi7MkArYa_0.jpg",
-   "img/Dbwi7MkArYa_1.jpg"
+   "img/web/Dbwi7MkArYa_0.webp",
+   "img/web/Dbwi7MkArYa_1.webp"
   ],
   "colorImage": {
-   "Royal Blue": "img/Dbwi7MkArYa_0.jpg"
+   "Royal Blue": "img/web/Dbwi7MkArYa_0.webp",
+   "Black": "img/recolor/Dbwi7MkArYa_black.webp",
+   "Off-White": "img/recolor/Dbwi7MkArYa_off-white.webp",
+   "Pink": "img/recolor/Dbwi7MkArYa_pink.webp"
   }
  },
  {
@@ -627,11 +721,19 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 4-7 days",
   "photos": [
-   "img/Da-XzpUgLEt_0.jpg",
-   "img/Da-XzpUgLEt_1.jpg"
+   "img/web/Da-XzpUgLEt_0.webp",
+   "img/web/Da-XzpUgLEt_1.webp"
   ],
   "colorImage": {
-   "Pink": "img/Da-XzpUgLEt_0.jpg"
+   "Pink": "img/web/Da-XzpUgLEt_0.webp",
+   "Black": "img/recolor/Da-XzpUgLEt_black.webp",
+   "Off-White": "img/recolor/Da-XzpUgLEt_off-white.webp",
+   "Royal Blue": "img/recolor/Da-XzpUgLEt_royal-blue.webp",
+   "Baby Blue": "img/recolor/Da-XzpUgLEt_baby-blue.webp",
+   "Burgundy": "img/recolor/Da-XzpUgLEt_burgundy.webp",
+   "Cashmere": "img/recolor/Da-XzpUgLEt_cashmere.webp",
+   "Grey": "img/recolor/Da-XzpUgLEt_grey.webp",
+   "Beige": "img/recolor/Da-XzpUgLEt_beige.webp"
   }
  },
  {
@@ -659,10 +761,18 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7days",
   "photos": [
-   "img/Da3uQtygDVy_0.jpg"
+   "img/web/Da3uQtygDVy_0.webp"
   ],
   "colorImage": {
-   "Black": "img/Da3uQtygDVy_0.jpg"
+   "Black": "img/web/Da3uQtygDVy_0.webp",
+   "Off-White": "img/recolor/Da3uQtygDVy_off-white.webp",
+   "Royal Blue": "img/recolor/Da3uQtygDVy_royal-blue.webp",
+   "Pink": "img/recolor/Da3uQtygDVy_pink.webp",
+   "Baby Blue": "img/recolor/Da3uQtygDVy_baby-blue.webp",
+   "Beige": "img/recolor/Da3uQtygDVy_beige.webp",
+   "Burgundy": "img/recolor/Da3uQtygDVy_burgundy.webp",
+   "Navy": "img/recolor/Da3uQtygDVy_navy.webp",
+   "Grey": "img/recolor/Da3uQtygDVy_grey.webp"
   }
  },
  {
@@ -689,11 +799,17 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DZ8reIkAv5o_0.jpg",
-   "img/DZ8reIkAv5o_1.jpg"
+   "img/web/DZ8reIkAv5o_0.webp",
+   "img/web/DZ8reIkAv5o_1.webp"
   ],
   "colorImage": {
-   "Off-White": "img/DZ8reIkAv5o_0.jpg"
+   "Off-White": "img/web/DZ8reIkAv5o_0.webp",
+   "Black": "img/recolor/DZ8reIkAv5o_black.webp",
+   "Silver Grey": "img/recolor/DZ8reIkAv5o_silver-grey.webp",
+   "Navy": "img/recolor/DZ8reIkAv5o_navy.webp",
+   "Pink": "img/recolor/DZ8reIkAv5o_pink.webp",
+   "Baby Blue": "img/recolor/DZ8reIkAv5o_baby-blue.webp",
+   "Burgundy": "img/recolor/DZ8reIkAv5o_burgundy.webp"
   }
  },
  {
@@ -719,11 +835,16 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7days",
   "photos": [
-   "img/DZ8DE4HgBM1_0.jpg",
-   "img/DZ8DE4HgBM1_1.jpg"
+   "img/web/DZ8DE4HgBM1_0.webp",
+   "img/web/DZ8DE4HgBM1_1.webp"
   ],
   "colorImage": {
-   "Black": "img/DZ8DE4HgBM1_0.jpg"
+   "Black": "img/web/DZ8DE4HgBM1_0.webp",
+   "Silver Grey": "img/recolor/DZ8DE4HgBM1_silver-grey.webp",
+   "Royal Blue": "img/recolor/DZ8DE4HgBM1_royal-blue.webp",
+   "Emerald Green": "img/recolor/DZ8DE4HgBM1_emerald-green.webp",
+   "Champagne Gold": "img/recolor/DZ8DE4HgBM1_champagne-gold.webp",
+   "Burgundy": "img/recolor/DZ8DE4HgBM1_burgundy.webp"
   }
  },
  {
@@ -746,11 +867,14 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/DZ3tbNTgiek_0.jpg",
-   "img/DZ3tbNTgiek_1.jpg"
+   "img/web/DZ3tbNTgiek_0.webp",
+   "img/web/DZ3tbNTgiek_1.webp"
   ],
   "colorImage": {
-   "Off-White": "img/DZ3tbNTgiek_0.jpg"
+   "Off-White": "img/web/DZ3tbNTgiek_0.webp",
+   "Black": "img/recolor/DZ3tbNTgiek_black.webp",
+   "Royal Blue": "img/recolor/DZ3tbNTgiek_royal-blue.webp",
+   "Grey": "img/recolor/DZ3tbNTgiek_grey.webp"
   }
  },
  {
@@ -775,11 +899,17 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 4-7 days",
   "photos": [
-   "img/DZVDsqRgvj7_0.jpg",
-   "img/DZVDsqRgvj7_1.jpg"
+   "img/web/DZVDsqRgvj7_0.webp",
+   "img/web/DZVDsqRgvj7_1.webp"
   ],
   "colorImage": {
-   "Silver Grey": "img/DZVDsqRgvj7_0.jpg"
+   "Silver Grey": "img/web/DZVDsqRgvj7_0.webp",
+   "Black": "img/recolor/DZVDsqRgvj7_black.webp",
+   "Off-White": "img/recolor/DZVDsqRgvj7_off-white.webp",
+   "Royal Blue": "img/recolor/DZVDsqRgvj7_royal-blue.webp",
+   "Cashmere": "img/recolor/DZVDsqRgvj7_cashmere.webp",
+   "Pink": "img/recolor/DZVDsqRgvj7_pink.webp",
+   "Baby Blue": "img/recolor/DZVDsqRgvj7_baby-blue.webp"
   }
  },
  {
@@ -804,11 +934,16 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 4-7 days",
   "photos": [
-   "img/DZVEdGEAmcm_0.jpg",
-   "img/DZVEdGEAmcm_1.jpg"
+   "img/web/DZVEdGEAmcm_0.webp",
+   "img/web/DZVEdGEAmcm_1.webp"
   ],
   "colorImage": {
-   "Black": "img/DZVEdGEAmcm_0.jpg"
+   "Black": "img/web/DZVEdGEAmcm_0.webp",
+   "Off-White": "img/recolor/DZVEdGEAmcm_off-white.webp",
+   "Royal Blue": "img/recolor/DZVEdGEAmcm_royal-blue.webp",
+   "Pink": "img/recolor/DZVEdGEAmcm_pink.webp",
+   "Baby Blue": "img/recolor/DZVEdGEAmcm_baby-blue.webp",
+   "Burgundy": "img/recolor/DZVEdGEAmcm_burgundy.webp"
   }
  },
  {
@@ -833,11 +968,16 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 4-7 days",
   "photos": [
-   "img/DWMwa1WgGtj_0.jpg",
-   "img/DWMwa1WgGtj_1.jpg"
+   "img/web/DWMwa1WgGtj_0.webp",
+   "img/web/DWMwa1WgGtj_1.webp"
   ],
   "colorImage": {
-   "Black": "img/DWMwa1WgGtj_0.jpg"
+   "Black": "img/web/DWMwa1WgGtj_0.webp",
+   "Off-White": "img/recolor/DWMwa1WgGtj_off-white.webp",
+   "Royal Blue": "img/recolor/DWMwa1WgGtj_royal-blue.webp",
+   "Pink": "img/recolor/DWMwa1WgGtj_pink.webp",
+   "Baby Blue": "img/recolor/DWMwa1WgGtj_baby-blue.webp",
+   "Burgundy": "img/recolor/DWMwa1WgGtj_burgundy.webp"
   }
  },
  {
@@ -864,11 +1004,18 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 4-7 days",
   "photos": [
-   "img/DWNONU2AlQt_0.jpg",
-   "img/DWNONU2AlQt_1.jpg"
+   "img/web/DWNONU2AlQt_0.webp",
+   "img/web/DWNONU2AlQt_1.webp"
   ],
   "colorImage": {
-   "Pink": "img/DWNONU2AlQt_0.jpg"
+   "Pink": "img/web/DWNONU2AlQt_0.webp",
+   "Off-White": "img/recolor/DWNONU2AlQt_off-white.webp",
+   "Black": "img/recolor/DWNONU2AlQt_black.webp",
+   "Royal Blue": "img/recolor/DWNONU2AlQt_royal-blue.webp",
+   "Cashmere": "img/recolor/DWNONU2AlQt_cashmere.webp",
+   "Burgundy": "img/recolor/DWNONU2AlQt_burgundy.webp",
+   "Baby Blue": "img/recolor/DWNONU2AlQt_baby-blue.webp",
+   "Beige": "img/recolor/DWNONU2AlQt_beige.webp"
   }
  },
  {
@@ -879,7 +1026,8 @@ const PRODUCTS = [
   "sizes": [],
   "delivery": "",
   "photos": [
-   "img/DGtRpzwuClH_0.jpg"
-  ]
+   "img/web/DGtRpzwuClH_0.webp"
+  ],
+  "colorImage": {}
  }
 ];

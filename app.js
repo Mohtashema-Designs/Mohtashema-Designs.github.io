@@ -33,17 +33,20 @@
     return p.sizes[0] + ' to ' + p.sizes[p.sizes.length - 1];
   }
 
-  // Hero: use a brand photo
+  // Hero: standalone file, swap img/hero.webp to change it
   document.getElementById('heroBg').style.backgroundImage =
-    "url('" + PRODUCTS[0].photos[0] + "')";
+    "url('img/hero.webp')";
+
+  // Grid cards use lightweight thumbnails; detail views use full images
+  function thumb(src) { return src.replace('img/web/', 'img/thumb/'); }
 
   // Grid
   PRODUCTS.forEach((p, i) => {
     const card = document.createElement('button');
     card.className = 'card reveal';
-    const alt = p.photos[1] ? '<img class="alt" src="' + p.photos[1] + '" alt="" loading="lazy">' : '';
+    const alt = p.photos[1] ? '<img class="alt" src="' + thumb(p.photos[1]) + '" alt="" loading="lazy">' : '';
     card.innerHTML =
-      '<span class="card-imgwrap"><span class="card-img"><img src="' + p.photos[0] + '" alt="' + p.name + '" loading="lazy">' + alt + '</span></span>' +
+      '<span class="card-imgwrap"><span class="card-img"><img src="' + thumb(p.photos[0]) + '" alt="' + p.name + '" loading="lazy">' + alt + '</span></span>' +
       '<span class="card-name">' + p.name + '</span>' +
       '<span class="card-meta">' + sizesSummary(p) + (p.colors.length ? ' &middot; ' + p.colors.length + ' colors' : '') + '</span>' +
       '<span class="card-price">' + PLACEHOLDER_PRICE + '</span>';
@@ -148,7 +151,7 @@
       row.className = 'cart-item';
       const meta = [item.color, item.size ? 'Size ' + item.size : ''].filter(Boolean).join(' &middot; ');
       row.innerHTML =
-        '<img src="' + item.p.photos[0] + '" alt="">' +
+        '<img src="' + thumb(item.p.photos[0]) + '" alt="">' +
         '<span><span class="ci-name">' + item.p.name + '</span><br><span class="ci-meta">' + meta + '</span></span>' +
         '<span><span class="ci-price">' + PLACEHOLDER_PRICE + '</span> <button class="ci-remove" aria-label="Remove">&times;</button></span>';
       row.querySelector('.ci-remove').addEventListener('click', () => { cart.splice(i, 1); renderCart(); });
