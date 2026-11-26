@@ -118,7 +118,14 @@
       im.style.display = on ? '' : 'none';
       if (on) found = true;
     });
-    if (found) dPhotos.scrollTo({left:0});
+    if (!found) {
+      const im = document.createElement('img');
+      im.src = src;
+      im.alt = current ? current.name : '';
+      dPhotos.appendChild(im);
+      imgs.forEach((o) => (o.style.display = 'none'));
+    }
+    dPhotos.scrollTo({left:0});
   }
 
   addBtn.addEventListener('click', () => {
