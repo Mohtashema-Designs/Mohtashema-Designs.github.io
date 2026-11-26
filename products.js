@@ -23,11 +23,11 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/Df-P0zpALkk_0.jpg",
-   "img/Df-P0zpALkk_1.jpg",
-   "img/Df-P0zpALkk_2.jpg",
-   "img/Df-P0zpALkk_3.jpg"
-  ]
+   "img/Df-P0zpALkk_0.jpg"
+  ],
+  "colorImage": {
+   "Beige": "img/Df-P0zpALkk_0.jpg"
+  }
  },
  {
   "id": "Df5WNOcAG6-",
@@ -52,11 +52,11 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/Df5WNOcAG6-_0.jpg",
-   "img/Df5WNOcAG6-_1.jpg",
-   "img/Df5WNOcAG6-_2.jpg",
-   "img/Df5WNOcAG6-_3.jpg"
-  ]
+   "img/Df5WNOcAG6-_0.jpg"
+  ],
+  "colorImage": {
+   "Brown": "img/Df5WNOcAG6-_0.jpg"
+  }
  },
  {
   "id": "Df5WyEEAJOR",
@@ -81,11 +81,11 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7 days",
   "photos": [
-   "img/Df5WyEEAJOR_0.jpg",
-   "img/Df5WyEEAJOR_1.jpg",
-   "img/Df5WyEEAJOR_2.jpg",
-   "img/Df5WyEEAJOR_3.jpg"
-  ]
+   "img/Df5WyEEAJOR_0.jpg"
+  ],
+  "colorImage": {
+   "Beige": "img/Df5WyEEAJOR_0.jpg"
+  }
  },
  {
   "id": "DfopYvIgCVC",
@@ -111,28 +111,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DfopYvIgCVC_0.jpg",
-   "img/DfopYvIgCVC_1.jpg",
-   "img/DfopYvIgCVC_2.jpg",
-   "img/DfopYvIgCVC_3.jpg"
-  ]
- },
- {
-  "id": "DfXgd1XAu0J",
-  "name": "Statement Vest",
-  "desc": "A standout vest that brings together luxury and modern elegance.",
-  "colors": [],
-  "sizes": [
-   "S",
-   "M",
-   "L",
-   "XL",
-   "2XL",
-   "3XL"
+   "img/DfopYvIgCVC_1.jpg"
   ],
-  "delivery": "Delivery within 7 days",
-  "photos": [
-   "img/DfXgd1XAu0J_0.jpg"
-  ]
+  "colorImage": {
+   "Grey": "img/DfopYvIgCVC_0.jpg"
+  }
  },
  {
   "id": "DfUsGjAANt-",
@@ -155,10 +138,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DfUsGjAANt-_0.jpg",
-   "img/DfUsGjAANt-_1.jpg",
-   "img/DfUsGjAANt-_2.jpg",
-   "img/DfUsGjAANt-_3.jpg"
-  ]
+   "img/DfUsGjAANt-_1.jpg"
+  ],
+  "colorImage": {
+   "Brown": "img/DfUsGjAANt-_0.jpg"
+  }
  },
  {
   "id": "DfANOo1ACKp",
@@ -181,10 +165,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DfANOo1ACKp_0.jpg",
-   "img/DfANOo1ACKp_1.jpg",
-   "img/DfANOo1ACKp_2.jpg",
-   "img/DfANOo1ACKp_3.jpg"
-  ]
+   "img/DfANOo1ACKp_1.jpg"
+  ],
+  "colorImage": {
+   "Burgundy": "img/DfANOo1ACKp_0.jpg"
+  }
  },
  {
   "id": "Der1CIDkZxr",
@@ -202,10 +187,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7days",
   "photos": [
    "img/Der1CIDkZxr_0.jpg",
-   "img/Der1CIDkZxr_1.jpg",
-   "img/Der1CIDkZxr_2.jpg",
-   "img/Der1CIDkZxr_3.jpg"
-  ]
+   "img/Der1CIDkZxr_1.jpg"
+  ],
+  "colorImage": {
+   "Black": "img/Der1CIDkZxr_0.jpg"
+  }
  },
  {
   "id": "Der2wHRR1NI",
@@ -241,10 +227,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7days",
   "photos": [
    "img/Der3RdFkZ23_0.jpg",
-   "img/Der3RdFkZ23_1.jpg",
-   "img/Der3RdFkZ23_2.jpg",
-   "img/Der3RdFkZ23_3.jpg"
-  ]
+   "img/Der3RdFkZ23_1.jpg"
+  ],
+  "colorImage": {
+   "Olive": "img/Der3RdFkZ23_0.jpg"
+  }
  },
  {
   "id": "DeYIGk3gizU",
@@ -267,10 +254,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DeYIGk3gizU_0.jpg",
-   "img/DeYIGk3gizU_1.jpg",
-   "img/DeYIGk3gizU_2.jpg",
-   "img/DeYIGk3gizU_3.jpg"
-  ]
+   "img/DeYIGk3gizU_1.jpg"
+  ],
+  "colorImage": {
+   "Olive": "img/DeYIGk3gizU_0.jpg"
+  }
  },
  {
   "id": "DeYIwCFgpB9",
@@ -296,10 +284,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DeYIwCFgpB9_0.jpg",
-   "img/DeYIwCFgpB9_1.jpg",
-   "img/DeYIwCFgpB9_2.jpg",
-   "img/DeYIwCFgpB9_3.jpg"
-  ]
+   "img/DeYIwCFgpB9_1.jpg"
+  ],
+  "colorImage": {
+   "Brown": "img/DeYIwCFgpB9_0.jpg"
+  }
  },
  {
   "id": "DeZ-A3tADN_",
@@ -325,10 +314,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DeZ-A3tADN__0.jpg",
-   "img/DeZ-A3tADN__1.jpg",
-   "img/DeZ-A3tADN__2.jpg",
-   "img/DeZ-A3tADN__3.jpg"
-  ]
+   "img/DeZ-A3tADN__1.jpg"
+  ],
+  "colorImage": {
+   "Grey": "img/DeZ-A3tADN__0.jpg"
+  }
  },
  {
   "id": "DeNEHB6AJ71",
@@ -354,10 +344,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DeNEHB6AJ71_0.jpg",
-   "img/DeNEHB6AJ71_1.jpg",
-   "img/DeNEHB6AJ71_2.jpg",
-   "img/DeNEHB6AJ71_3.jpg"
-  ]
+   "img/DeNEHB6AJ71_1.jpg"
+  ],
+  "colorImage": {
+   "Off-White": "img/DeNEHB6AJ71_0.jpg"
+  }
  },
  {
   "id": "DeNDOTOgML8",
@@ -383,10 +374,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DeNDOTOgML8_0.jpg",
-   "img/DeNDOTOgML8_1.jpg",
-   "img/DeNDOTOgML8_2.jpg",
-   "img/DeNDOTOgML8_3.jpg"
-  ]
+   "img/DeNDOTOgML8_1.jpg"
+  ],
+  "colorImage": {
+   "Black": "img/DeNDOTOgML8_0.jpg"
+  }
  },
  {
   "id": "DeNFMdFAAYH",
@@ -413,10 +405,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DeNFMdFAAYH_0.jpg",
-   "img/DeNFMdFAAYH_1.jpg",
-   "img/DeNFMdFAAYH_2.jpg",
-   "img/DeNFMdFAAYH_3.jpg"
-  ]
+   "img/DeNFMdFAAYH_1.jpg"
+  ],
+  "colorImage": {
+   "Black": "img/DeNFMdFAAYH_0.jpg"
+  }
  },
  {
   "id": "DdzEEgsgEqW",
@@ -442,10 +435,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DdzEEgsgEqW_0.jpg",
-   "img/DdzEEgsgEqW_1.jpg",
-   "img/DdzEEgsgEqW_2.jpg",
-   "img/DdzEEgsgEqW_3.jpg"
-  ]
+   "img/DdzEEgsgEqW_1.jpg"
+  ],
+  "colorImage": {
+   "Off-White": "img/DdzEEgsgEqW_0.jpg"
+  }
  },
  {
   "id": "DdzFLHygBah",
@@ -471,10 +465,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DdzFLHygBah_0.jpg",
-   "img/DdzFLHygBah_1.jpg",
-   "img/DdzFLHygBah_2.jpg",
-   "img/DdzFLHygBah_3.jpg"
-  ]
+   "img/DdzFLHygBah_1.jpg"
+  ],
+  "colorImage": {
+   "Burgundy": "img/DdzFLHygBah_0.jpg"
+  }
  },
  {
   "id": "DdzGpi6gL-i",
@@ -495,10 +490,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DdzGpi6gL-i_0.jpg",
-   "img/DdzGpi6gL-i_1.jpg",
-   "img/DdzGpi6gL-i_2.jpg",
-   "img/DdzGpi6gL-i_3.jpg"
-  ]
+   "img/DdzGpi6gL-i_1.jpg"
+  ],
+  "colorImage": {
+   "Brown": "img/DdzGpi6gL-i_0.jpg"
+  }
  },
  {
   "id": "DdwvLHxAOAR",
@@ -524,10 +520,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DdwvLHxAOAR_0.jpg",
-   "img/DdwvLHxAOAR_1.jpg",
-   "img/DdwvLHxAOAR_2.jpg",
-   "img/DdwvLHxAOAR_3.jpg"
-  ]
+   "img/DdwvLHxAOAR_1.jpg"
+  ],
+  "colorImage": {
+   "Burgundy": "img/DdwvLHxAOAR_0.jpg"
+  }
  },
  {
   "id": "DdwvuJ5AAvJ",
@@ -572,10 +569,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DdwwG4iAAfC_0.jpg",
-   "img/DdwwG4iAAfC_1.jpg",
-   "img/DdwwG4iAAfC_2.jpg",
-   "img/DdwwG4iAAfC_3.jpg"
-  ]
+   "img/DdwwG4iAAfC_1.jpg"
+  ],
+  "colorImage": {
+   "Grey": "img/DdwwG4iAAfC_0.jpg"
+  }
  },
  {
   "id": "Dbwi7MkArYa",
@@ -598,10 +596,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/Dbwi7MkArYa_0.jpg",
-   "img/Dbwi7MkArYa_1.jpg",
-   "img/Dbwi7MkArYa_2.jpg",
-   "img/Dbwi7MkArYa_3.jpg"
-  ]
+   "img/Dbwi7MkArYa_1.jpg"
+  ],
+  "colorImage": {
+   "Royal Blue": "img/Dbwi7MkArYa_0.jpg"
+  }
  },
  {
   "id": "Da-XzpUgLEt",
@@ -629,10 +628,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 4-7 days",
   "photos": [
    "img/Da-XzpUgLEt_0.jpg",
-   "img/Da-XzpUgLEt_1.jpg",
-   "img/Da-XzpUgLEt_2.jpg",
-   "img/Da-XzpUgLEt_3.jpg"
-  ]
+   "img/Da-XzpUgLEt_1.jpg"
+  ],
+  "colorImage": {
+   "Pink": "img/Da-XzpUgLEt_0.jpg"
+  }
  },
  {
   "id": "Da3uQtygDVy",
@@ -659,10 +659,11 @@ const PRODUCTS = [
   ],
   "delivery": "Delivery within 7days",
   "photos": [
-   "img/Da3uQtygDVy_0.jpg",
-   "img/Da3uQtygDVy_1.jpg",
-   "img/Da3uQtygDVy_2.jpg"
-  ]
+   "img/Da3uQtygDVy_0.jpg"
+  ],
+  "colorImage": {
+   "Black": "img/Da3uQtygDVy_0.jpg"
+  }
  },
  {
   "id": "DZ8reIkAv5o",
@@ -690,7 +691,10 @@ const PRODUCTS = [
   "photos": [
    "img/DZ8reIkAv5o_0.jpg",
    "img/DZ8reIkAv5o_1.jpg"
-  ]
+  ],
+  "colorImage": {
+   "Off-White": "img/DZ8reIkAv5o_0.jpg"
+  }
  },
  {
   "id": "DZ8DE4HgBM1",
@@ -717,7 +721,10 @@ const PRODUCTS = [
   "photos": [
    "img/DZ8DE4HgBM1_0.jpg",
    "img/DZ8DE4HgBM1_1.jpg"
-  ]
+  ],
+  "colorImage": {
+   "Black": "img/DZ8DE4HgBM1_0.jpg"
+  }
  },
  {
   "id": "DZ3tbNTgiek",
@@ -740,9 +747,11 @@ const PRODUCTS = [
   "delivery": "Delivery within 7 days",
   "photos": [
    "img/DZ3tbNTgiek_0.jpg",
-   "img/DZ3tbNTgiek_1.jpg",
-   "img/DZ3tbNTgiek_2.jpg"
-  ]
+   "img/DZ3tbNTgiek_1.jpg"
+  ],
+  "colorImage": {
+   "Off-White": "img/DZ3tbNTgiek_0.jpg"
+  }
  },
  {
   "id": "DZVDsqRgvj7",
@@ -768,7 +777,10 @@ const PRODUCTS = [
   "photos": [
    "img/DZVDsqRgvj7_0.jpg",
    "img/DZVDsqRgvj7_1.jpg"
-  ]
+  ],
+  "colorImage": {
+   "Silver Grey": "img/DZVDsqRgvj7_0.jpg"
+  }
  },
  {
   "id": "DZVEdGEAmcm",
@@ -794,7 +806,10 @@ const PRODUCTS = [
   "photos": [
    "img/DZVEdGEAmcm_0.jpg",
    "img/DZVEdGEAmcm_1.jpg"
-  ]
+  ],
+  "colorImage": {
+   "Black": "img/DZVEdGEAmcm_0.jpg"
+  }
  },
  {
   "id": "DWMwa1WgGtj",
@@ -820,7 +835,10 @@ const PRODUCTS = [
   "photos": [
    "img/DWMwa1WgGtj_0.jpg",
    "img/DWMwa1WgGtj_1.jpg"
-  ]
+  ],
+  "colorImage": {
+   "Black": "img/DWMwa1WgGtj_0.jpg"
+  }
  },
  {
   "id": "DWNONU2AlQt",
@@ -848,32 +866,14 @@ const PRODUCTS = [
   "photos": [
    "img/DWNONU2AlQt_0.jpg",
    "img/DWNONU2AlQt_1.jpg"
-  ]
- },
- {
-  "id": "DTqexBUAFKu",
-  "name": "Embroidered Wrap Dress",
-  "desc": "A wrap dress in premium imported fabric with hand-embroidered tulle. Where craftsmanship meets luxury.",
-  "colors": [
-   "Black",
-   "Grey"
   ],
-  "sizes": [
-   "S",
-   "M",
-   "L",
-   "XL",
-   "2XL",
-   "3XL"
-  ],
-  "delivery": "Delivery within 7 days",
-  "photos": [
-   "img/DTqexBUAFKu_0.jpg"
-  ]
+  "colorImage": {
+   "Pink": "img/DWNONU2AlQt_0.jpg"
+  }
  },
  {
   "id": "DGtRpzwuClH",
-  "name": "Cape Dress, Worn by Marwa Sabry",
+  "name": "Cape Dress",
   "desc": "The embroidered-cape dress chosen by TV presenter Marwa Sabry. A regal Mohtashema Designs look.",
   "colors": [],
   "sizes": [],

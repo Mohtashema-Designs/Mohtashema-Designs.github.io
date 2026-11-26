@@ -3,64 +3,138 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mohtashema Designs</title>
-<meta name="description" content="Modest luxury fashion for the elegant woman.">
+<title>Mohtashema Designs - Modest Luxury Fashion</title>
+<meta name="description" content="Mohtashema Designs - modest luxury fashion for the elegant woman. Custom sizes, delivery across Egypt. Order by Instagram DM.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-head">
-  <h1>Mohtashema Designs</h1>
-  <p class="fact">34 styles, winter and soirée</p>
-  <p class="intro">Modest luxury fashion for the elegant woman. Every piece comes in sizes S to 3XL with custom sizing on request, and shipping everywhere. Orders are completed by Instagram DM.</p>
-  <div class="toolbar">
-    <button id="cartBtn" class="btn btn-primary" type="button">Cart is empty</button>
-    <a class="btn btn-secondary" href="https://ig.me/m/mohtashema_designs" target="_blank" rel="noopener">Message us on Instagram</a>
+
+<header class="site-header" id="top">
+  <div class="header-row">
+    <a class="header-icon" href="https://www.instagram.com/mohtashema_designs/" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.9" fill="currentColor" stroke="none"/></svg>
+    </a>
+    <a class="wordmark" href="#top">
+      <span class="crest"><img src="img/logo.jpg" alt="Mohtashema Designs logo"></span>
+      <span class="wordmark-text">MOHTASHEMA</span>
+      <span class="wordmark-sub">DESIGNS &middot; MODEST LUXURY</span>
+    </a>
+    <button class="header-icon" id="cartBtn" aria-label="Shopping bag">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 8h12l-1.2 12.2a1.5 1.5 0 0 1-1.5 1.3H8.7a1.5 1.5 0 0 1-1.5-1.3L6 8z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg>
+      <span class="cart-count" id="cartCount">0</span>
+    </button>
   </div>
+  <nav class="header-nav">
+    <a href="#collection">Shop</a>
+    <a href="#collection">All products</a>
+    <a href="#about">About us</a>
+    <a href="https://ig.me/m/mohtashema_designs" target="_blank" rel="noopener">Contact us</a>
+  </nav>
 </header>
 
-<main id="grid" class="grid" aria-label="Products"></main>
-
-<dialog id="detailDlg" class="dlg">
-  <div class="dlg-body">
-    <div class="dlg-close"><button id="detailClose" class="xbtn" type="button" aria-label="Close">×</button></div>
-    <div id="dPhotos" class="photostrip"></div>
-    <h2 id="dName" class="d-name"></h2>
-    <p id="dPrice" class="d-price"></p>
-    <p id="dDesc" class="d-desc"></p>
-    <div id="dColorsWrap" class="opt">
-      <span class="opt-label">Color</span>
-      <div id="dColors" class="chips"></div>
-    </div>
-    <div id="dSizesWrap" class="opt">
-      <span class="opt-label">Size</span>
-      <div id="dSizes" class="chips"></div>
-    </div>
-    <p id="dNote" class="d-note"></p>
-    <button id="addBtn" class="btn btn-primary" type="button">Add to cart</button>
+<section class="hero">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-kicker">Winter &amp; Soir&eacute;e Collection</p>
+    <h1 class="hero-title">MODEST<br>LUXURY</h1>
+    <p class="hero-sub">For the elegant woman. Custom sizes on request, delivery across Egypt.</p>
+    <a class="hero-cta" href="#collection">Shop the collection</a>
   </div>
-</dialog>
+</section>
 
-<dialog id="cartDlg" class="dlg">
-  <div class="dlg-body">
-    <div class="dlg-close"><button id="cartClose" class="xbtn" type="button" aria-label="Close">×</button></div>
-    <h2 class="d-name">Your order</h2>
-    <p id="cartEmpty" class="d-desc">Your cart is empty. Pick any style and add it here.</p>
-    <div id="cartFull" hidden>
-      <ul id="cartList" class="cartlist"></ul>
-      <p class="d-desc">To place your order: copy the order details, then send them to us in an Instagram DM. We will reply with the final price, payment and shipping details.</p>
-      <div class="orderbox"><pre id="orderText"></pre></div>
-      <div class="cartactions">
-        <button id="copyBtn" class="btn btn-primary" type="button">Copy order</button>
-        <a class="btn btn-secondary" href="https://ig.me/m/mohtashema_designs" target="_blank" rel="noopener">Open Instagram DM</a>
-      </div>
-      <p id="copyMsg" class="d-note" role="status"></p>
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Custom sizes available</span><span>&middot;</span>
+    <span>Delivery across Egypt</span><span>&middot;</span>
+    <span>Order by Instagram DM</span><span>&middot;</span>
+    <span>Founded by Reham Adel</span><span>&middot;</span>
+    <span>Custom sizes available</span><span>&middot;</span>
+    <span>Delivery across Egypt</span><span>&middot;</span>
+    <span>Order by Instagram DM</span><span>&middot;</span>
+    <span>Founded by Reham Adel</span><span>&middot;</span>
+  </div>
+</div>
+
+<section class="collection" id="collection">
+  <div class="section-head reveal">
+    <span class="rule"></span>
+    <h2>The Collection</h2>
+    <span class="rule"></span>
+  </div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-inner">
+    <div class="about-img reveal"><img id="aboutImg" src="img/Df-P0zpALkk_0.jpg" alt="Mohtashema Designs piece" loading="lazy"></div>
+    <div class="about-text reveal">
+      <h2>About Mohtashema</h2>
+      <p>Founded by Reham Adel, Mohtashema Designs is an Egyptian modest luxury fashion brand that blends timeless modesty with modern elegance. Every piece—from flowing kaftans and breathable linen sets to tailored wool coats—is thoughtfully crafted using premium fabrics and flattering silhouettes. Proudly offering custom sizing and delivery across Egypt, we design refined, effortless fashion made to fit your unique style.</p>
+      <a class="text-link" href="https://www.instagram.com/mohtashema_designs/" target="_blank" rel="noopener">@mohtashema_designs</a>
     </div>
   </div>
-</dialog>
+</section>
 
-<footer class="site-foot">
-  Styles and photos from @mohtashema_designs on Instagram, updated 26 Nov 2026. Prices shown are placeholders until the boutique confirms them by DM. Nothing is ordered or paid from this page.
+<footer class="site-footer">
+  <div class="wordmark footer-mark">
+    <span class="crest"><img src="img/logo.jpg" alt="Mohtashema Designs logo"></span>
+    <span class="wordmark-text">MOHTASHEMA</span>
+    <span class="wordmark-sub">DESIGNS &middot; MODEST LUXURY</span>
+  </div>
+  <p class="footer-note">Final prices are confirmed by Instagram DM.</p>
+  <a class="footer-ig" href="https://www.instagram.com/mohtashema_designs/" target="_blank" rel="noopener">Follow us on Instagram</a>
+  <p class="footer-copy">All rights reserved &reg; Malek Sherif Adel</p>
 </footer>
+
+<!-- Product detail -->
+<dialog class="detail-dlg" id="detailDlg">
+  <button class="dlg-close" id="detailClose" aria-label="Close">&times;</button>
+  <div class="detail-body">
+    <div class="detail-photos" id="dPhotos"></div>
+    <div class="detail-info">
+      <h3 id="dName"></h3>
+      <p class="detail-price" id="dPrice"></p>
+      <p class="detail-desc" id="dDesc"></p>
+      <div class="opt-block" id="dColorsWrap">
+        <p class="opt-label">Color</p>
+        <div class="chips" id="dColors"></div>
+      </div>
+      <div class="opt-block" id="dSizesWrap">
+        <p class="opt-label">Size</p>
+        <div class="chips" id="dSizes"></div>
+      </div>
+      <p class="detail-note" id="dNote"></p>
+      <button class="btn-primary" id="addBtn">Add to cart</button>
+    </div>
+  </div>
+</dialog>
+
+<!-- Cart -->
+<dialog class="cart-dlg" id="cartDlg">
+  <button class="dlg-close" id="cartClose" aria-label="Close">&times;</button>
+  <div class="cart-body">
+    <h3>Your bag</h3>
+    <div id="cartEmpty" class="cart-empty">
+      <p>Your bag is empty.</p>
+      <button class="btn-primary" id="keepShopping">Continue shopping</button>
+    </div>
+    <div id="cartFull" hidden>
+      <div id="cartList"></div>
+      <div class="cart-total"><span>Total</span><span id="cartTotal"></span></div>
+      <p class="cart-help">Copy your order and send it to us on Instagram. We confirm the final price and delivery with you there.</p>
+      <textarea id="orderText" readonly rows="6"></textarea>
+      <div class="cart-actions">
+        <button class="btn-outline" id="copyBtn">Copy order</button>
+        <a class="btn-primary" id="igSend" href="https://ig.me/m/mohtashema_designs" target="_blank" rel="noopener">Send on Instagram</a>
+      </div>
+      <p class="copy-msg" id="copyMsg" hidden>Copied. Paste it in our Instagram DM.</p>
+    </div>
+  </div>
+</dialog>
 
 <script src="products.js"></script>
 <script src="app.js"></script>
