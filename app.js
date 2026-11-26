@@ -75,6 +75,12 @@
       img.alt = p.name;
       dPhotos.appendChild(img);
     });
+    // Prefetch every colour-variant photo now so chip taps swap instantly
+    if (p.colorImage) {
+      Object.values(p.colorImage).forEach((src) => {
+        if (!p.photos.includes(src)) { const pre = new Image(); pre.src = src; }
+      });
+    }
     dColorsWrap.hidden = !p.colors.length;
     dColors.innerHTML = '';
     p.colors.forEach((c) => {
