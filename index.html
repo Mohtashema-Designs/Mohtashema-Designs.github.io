@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohtashema Designs</title>
+<meta name="description" content="Modest luxury fashion for the elegant woman.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-head">
+  <h1>Mohtashema Designs</h1>
+  <p class="fact">34 styles, winter and soirée</p>
+  <p class="intro">Modest luxury fashion for the elegant woman. Every piece comes in sizes S to 3XL with custom sizing on request, and shipping everywhere. Orders are completed by Instagram DM.</p>
+  <div class="toolbar">
+    <button id="cartBtn" class="btn btn-primary" type="button">Cart is empty</button>
+    <a class="btn btn-secondary" href="https://ig.me/m/mohtashema_designs" target="_blank" rel="noopener">Message us on Instagram</a>
+  </div>
+</header>
+
+<main id="grid" class="grid" aria-label="Products"></main>
+
+<dialog id="detailDlg" class="dlg">
+  <div class="dlg-body">
+    <div class="dlg-close"><button id="detailClose" class="xbtn" type="button" aria-label="Close">×</button></div>
+    <div id="dPhotos" class="photostrip"></div>
+    <h2 id="dName" class="d-name"></h2>
+    <p id="dPrice" class="d-price"></p>
+    <p id="dDesc" class="d-desc"></p>
+    <div id="dColorsWrap" class="opt">
+      <span class="opt-label">Color</span>
+      <div id="dColors" class="chips"></div>
+    </div>
+    <div id="dSizesWrap" class="opt">
+      <span class="opt-label">Size</span>
+      <div id="dSizes" class="chips"></div>
+    </div>
+    <p id="dNote" class="d-note"></p>
+    <button id="addBtn" class="btn btn-primary" type="button">Add to cart</button>
+  </div>
+</dialog>
+
+<dialog id="cartDlg" class="dlg">
+  <div class="dlg-body">
+    <div class="dlg-close"><button id="cartClose" class="xbtn" type="button" aria-label="Close">×</button></div>
+    <h2 class="d-name">Your order</h2>
+    <p id="cartEmpty" class="d-desc">Your cart is empty. Pick any style and add it here.</p>
+    <div id="cartFull" hidden>
+      <ul id="cartList" class="cartlist"></ul>
+      <p class="d-desc">To place your order: copy the order details, then send them to us in an Instagram DM. We will reply with the final price, payment and shipping details.</p>
+      <div class="orderbox"><pre id="orderText"></pre></div>
+      <div class="cartactions">
+        <button id="copyBtn" class="btn btn-primary" type="button">Copy order</button>
+        <a class="btn btn-secondary" href="https://ig.me/m/mohtashema_designs" target="_blank" rel="noopener">Open Instagram DM</a>
+      </div>
+      <p id="copyMsg" class="d-note" role="status"></p>
+    </div>
+  </div>
+</dialog>
+
+<footer class="site-foot">
+  Styles and photos from @mohtashema_designs on Instagram, updated 26 Nov 2026. Prices shown are placeholders until the boutique confirms them by DM. Nothing is ordered or paid from this page.
+</footer>
+
+<script src="products.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
